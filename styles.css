@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 47px;
+  margin-left: 42px;
+}
+
+.link-header {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.875px;
+  color: #17233D;
+  margin-right: 36px;
+  cursor: pointer;
+}
+
+.button-header {
+  background: #6FBF44;
+  border: 1px solid #4CB538;
+  border-radius: 6px;
+  width: 124px;
+  height: 51px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  cursor: pointer
+}
+
+img {
+  width: 595.18px;
+  height: 500px;
+  margin-top: 163px;
+  margin-left: 121px;
+  display: inline-block;
+}
+
+section {
+  display: inline-block;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 82px;
+  letter-spacing: 0.596154px;
+  color: #161A49;
+  width: 582px;
+  margin-left: 86px;
+}
+
+p {
+  width: 493px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  color: #4B505A;
+  margin-top: 47px;
+  margin-bottom: 55px;
+  margin-left: 86px;
+}
+
+.link-learn-more {
+  width: 112px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  color: #6FBF44;
+  cursor: pointer;
+  margin-left: 86px;
+}
+
+
+
+
+@media screen and (max-width: 900px){
+  .container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  header{
+    margin: 0;
+    padding: 0;
+  }
+
+    .link-header{
+      display: none;
+  }
+
+    .button-header {
+      background: #6FBF44;
+      border: 1px solid #4CB538;
+      border-radius: 6px;
+      width: 91px;
+      height: 31px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 24px;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: block;
+      margin: 17px 15px 76px 270px;
+    }
+
+    section{
+      display: block;
+    }
+
+  h1{
+    width: 278px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    margin: 76px auto 29px auto;
+}
+
+  p {
+    width: 304px;
+    height: 165px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 0px auto 27px auto;
+}
+
+  img{
+    position: absolute;
+    max-width: 90%;
+    margin: 270px auto 0px 19px;
+}
+
+.link-learn-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    margin: 0px 0px 0px 140px;
+}
+
+
+
+
+
+
+
+
+
+}
